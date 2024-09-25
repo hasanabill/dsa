@@ -1,4 +1,3 @@
-package stack;
 
 public class Stack {
     int SIZE = 3;
@@ -35,19 +34,6 @@ public class Stack {
             System.out.println("Cannot peek. Stack underflow");
         }
         return -1;
-    }
-
-    public static void main(String[] args) {
-        System.out.println("Implementing my stack");
-        Stack s = new Stack();
-        s.pop();
-        s.push(10);
-        s.push(20);
-        System.out.println("Peek " + s.peek());
-        s.push(30);
-        System.out.println("Poped: " + s.pop());
-        s.push(40);
-        System.out.println("Peek " + s.peek());
     }
 
 }
